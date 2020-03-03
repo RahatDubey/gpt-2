@@ -10,7 +10,12 @@ I used OPENAI’s gpt2 implementation to create this . Its a transformer based m
 
 The data is publicly hosted on google’s big query dump of all reddit comments. I got all the toastme posts and comments and put them into a data frame on AWS SageMaker. I then fine tuned and trained GPT2 to predict
 
-It would have made more sense to use and fine tune Microsoft’s DialoGPT, which is used for back and forth dialogue but I took on the extra challenge of making a chatbot out of this.
+It would have made more sense to use  and fine tune Microsoft’s DialoGPT, but a chatbot can be made out of this 
+
+CITATIONS:
+Chatbot https://blog.s-m.ac/GPT-2-ChatBot/
+Dlinne Bosman (https://github.com/dwjbosman?tab=repositories)
+https://colab.research.google.com/drive/1VLG8e7YSEwypxU-noRNhsv5dW4NfTGce#scrollTo=-xInIZKaU104
 
 
 # Forked from nsheppard:
